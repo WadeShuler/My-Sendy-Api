@@ -1,0 +1,24 @@
+{
+    "name": "wadeshuler/my-sendy-api",
+    "description": "PHP Wrapper for the Sendy API.",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": ["sendy", "email", "newsletter", "api", "php", "wrapper"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wade Shuler",
+            "homepage": "https://github.com/WadeShuler"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sendy\\": "src/"
+        }
+    }
+}
